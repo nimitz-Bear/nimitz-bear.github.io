@@ -15,6 +15,14 @@ h1 {
   z-index: 3;
 }
 
+h2 {
+  font-family: "Arima Madurai", cursive;
+  /* font-size: 4rem; */
+  letter-spacing: -1px;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  position: relative;
+}
+
 .animation-container {
   z-index: 1;
   position: relative;
