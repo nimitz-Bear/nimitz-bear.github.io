@@ -7,11 +7,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* This and the body-padding ensures that the bird animation isn't covered */
+@media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
 
 
 body {
     background: #FFFFFF;
     color: #000000;
+    padding-top: 70px;
 }
 
 a {

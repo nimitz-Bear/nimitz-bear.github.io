@@ -24,17 +24,15 @@
         <a href="#" class="logo"> Isaac Destura</a>
 
         <nav class="navbar">
-            <!-- Set home screen as active page -->
-            <a href="#" class="active">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-            <!-- <a href="#">Contact</a> -->
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
         </nav>
     </header>
-
+    
     <!-- Bird Animation/Welcome Section -->
-    <div class="animation-container">
+    <div class="animation-container" id="home">
 
         <h1>Isaac Destura</h1>
 
@@ -56,15 +54,15 @@
 
     </div>
 
-    <div class="jumbotron bg-green welcome">
+    <div class="jumbotron bg-green welcome" id="about">
         <h1 class="display-4">Hello </h1>
-        <p class="lead">I'm currently a 2nd year BSC computer science student. This webpage is so you can easily browse
+        <p class="lead">I'm currently a 2nd year BSC computer science student. This portfolio is so you can easily browse
             through my skills and projects.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
     <!-- Projects Section -->
-    <section class="projects mt-4 mb-4">
+    <section class="projects mt-4 mb-4" id="projects">
         <h2>Projects</h2>
         <div class="container">
             <div class="row g-3">
@@ -82,7 +80,7 @@
                                 a
                                 phone call.
                             </p>
-                            <button type="button" class="btn btn-secondary">Demo Video &#xF62B;</button>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=UcdEqz_v8ow" class="btn btn-secondary" role="button">Link Button <i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
 
@@ -97,13 +95,13 @@
                                 and
                                 fight enemies in a procedurelly generated 2D map.
                             </p>
-                            <button type="button" class="btn btn-secondary">Demo Video</button>
+                            <a target="_blank" href="https://youtu.be/RkVLn836oWI" class="btn btn-secondary" role="button">Link Button <i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/unsplash-1.jpg" alt="laptop with code" class="card-img-top">
+                        <img src="assets/maxmap.png" alt="maxmap" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title"> MaxMap V2</h5>
                             <p class="card-text">
@@ -123,7 +121,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="technical-skills">
+    <section class="technical-skills" id="skills">
         <h2>Skills</h2>
         <h3>Technical Skills</h3>
         <div class="row justify-content-center text-center">
