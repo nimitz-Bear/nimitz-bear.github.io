@@ -7,10 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 body {
-    background: #FAEDCD;
+    background: #FFFFFF;
     color: #000000;
 }
+
+a {
+    text-decoration: none;
+}
+
 .header {
  
     position: fixed;
@@ -87,10 +94,29 @@ body {
     /* background: #; */
 }
 
-.green-bg {
+.card-skill {
+    max-width: 150px;
+    /* padding-left: 0;
+    padding-right: 0; */
+    display:inline-block;
+}
+
+.bg-green {
     background: #ccd5ae;
 }
 
 .welcome {
     padding: 5%;
+}
+
+.bg-linen {
+    background: #FAEDCD;
+}
+
+.footer {
+    padding: 0;
+}
+
+.center {
+    margin: 50%;
 }
